@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+body {
+    font-family: "Poppins";
+}
+
+.categorie {
+    transition: transform .2s
+}
+
+.categorie:hover {
+    transform: scale(1.1)
+}
+
+.productCard {
+    transition: transform .2s
+}
+
+.productCard:hover {
+    transform: scale(1.04)
+}
+
+.btnPanier:hover {
+    background: #212529;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.StripeCheckout span {
+    background: #FFCA2C !important;
+    background-image:none !important;
+    background-color: #FFCA2C !important;
+  }
+
+.error {
+    background: rgba(245, 131, 131, 0.361);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .separeteUser {
+        border-top: 1px solid white;
+        width: 80px;
+    }
+}
+
